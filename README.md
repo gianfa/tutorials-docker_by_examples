@@ -1,5 +1,5 @@
 # docker_by_examples
-![docker logo](https://github.com/gianfa/docker_by_examples/blob/master/img/docker_logo.png)
+![docker logo](https://github.com/gianfa/docker_by_examples/blob/master/img/docker_logo.png)  
 Many ready-to-run examples of basic use of Docker to learn how to use it.
 
 
