@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  appflask:
+    image: fapi:v0.1
+    container_name: appflask
+    hostname: appflaskhost
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./flaskapp:/predapi/:ro
+
+  frontend:
+    image: fejs:v0.1
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend:/fend/:ro
+    
