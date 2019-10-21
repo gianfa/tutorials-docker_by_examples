@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  serv1:
+    image: img_pyodbc_mssql:v0.1
+    container_name: container1
+    build: ./workdir1/.
+    ports:
+      - "7001:7001"
+    volumes:
+      - ./workdir1:/home/python/app/:delegated
+
+
+
