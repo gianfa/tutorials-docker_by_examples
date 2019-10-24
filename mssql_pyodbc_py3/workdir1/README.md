@@ -14,12 +14,12 @@ The file *examp_funx.py* has a function as example, ran by a flask server, by *s
     * *examp_funx.py* -> connection parameters
 1. Build the image, by command line
     ```shell
-    # from workdir1/
+    # from project folder
     docker-compose build
     ```
 2. Launch the service, by command line
     ```shell
-    # from workdir1/
+    # from project folder
     docker-compose up
     ```
 3. Open the browser to (http://localhost:5001/db)[http://localhost:5001/db]
