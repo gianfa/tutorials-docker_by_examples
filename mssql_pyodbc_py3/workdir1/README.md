@@ -1,11 +1,5 @@
 # MSSQL Server with Python3.6
 This is a ready-to-run example of microservice using a MSSQL Server with Python 3.6.  
-### Why
-Because I lost my mind trying to make a simple connection to MSSQL DB through python3, not finding any docker images ready to be used.
-
-### Content
-The image mounts a Ubuntu 16.04 OS, and it comes with pyodbc, pandas and flask.  
-The file *examp_funx.py* has a function as example, ran by a flask server, by *server.py*.
 
 ### Basic use
 
