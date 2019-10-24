@@ -1,4 +1,4 @@
-# Docker image with Python3.6 connected to MSSQL Server by oyodbc
+# Docker image with Python3.6 connected to MSSQL Server by pyodbc
 This is a ready-to-run example of microservice using a MSSQL Server with Python 3.6.  
 ### Why
 Because I lost my mind trying to make a simple connection to MSSQL DB through python3, not finding any docker images ready to be used.
