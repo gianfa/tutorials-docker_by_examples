@@ -8,3 +8,4 @@ This repo is intended to contain examples of use of Docker, ready to be used. It
 More learning resources:
 * [Play with docker](https://training.play-with-docker.com/), a very good interactive step-by-step introduction to docker
 * [Official Getting started](https://docs.docker.com/get-started/)
+* [Improve your Dockerfile, best practices](https://dev.to/azure/improve-your-dockerfile-best-practices-5ll?utm_source=additional_box&utm_medium=internal&utm_campaign=regular&booster_org=azure)
