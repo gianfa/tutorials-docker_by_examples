@@ -1,0 +1,25 @@
+version: '3.5'
+
+services:
+  proj1_serv1:
+    image: img1:v0.1
+    container_name: container11
+    build: ./workdir1/.
+    ports:
+      - "1100:1100"
+    volumes:
+      - ./workdir1:/home/python/app/:delegated
+    environment:
+      - PROJ2_SERV1_PORT=2101
+      - PROJ2_SERV2_PORT=2201
+    networks:
+      - net1
+
+networks:
+  net1:
+    name: proj1net1
+    driver: bridge
+
+
+
+

@@ -1,0 +1,39 @@
+version: '3.5'
+
+services:
+  proj2_serv1:
+    image: img2:v0.1
+    container_name: container21
+    build: ./workdir1/.
+    ports:
+      - "2100:2100"
+    volumes:
+      - ./workdir1:/home/python/app/:delegated
+    environment:
+      - PROJ1_SERV1_PORT=1101
+      - PROJ2_SERV2_PORT=2201
+    networks:
+      - proj1network
+
+  proj2_serv2:
+    image: img3:v0.1
+    container_name: container22
+    build: ./workdir2/.
+    ports:
+      - "2200:2200"
+    volumes:
+      - ./workdir2:/home/node/app/:delegated
+    environment:
+      - PROJ1_SERV1_PORT=1101
+      - PROJ2_SERV1_PORT=2101
+    links:
+      - proj2_serv1
+    networks:
+      - proj1network
+
+networks:
+  proj1network:
+    external:
+      name: proj1net1
+
+
