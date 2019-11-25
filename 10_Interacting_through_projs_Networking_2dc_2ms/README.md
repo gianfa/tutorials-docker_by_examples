@@ -5,7 +5,7 @@ We're gonna setup a minimum global project in order to make each service able to
 
 
 ### The projects
-![tree](https://github.com/gianfa/docker_by_examples/blob/master/_img/networking_tree.png)
+<img href="https://github.com/gianfa/docker_by_examples/blob/master/_img/networking_tree.png" width="200">
 As you can see we have:
 * two projects, each one having:
     * its proper docker compose
@@ -35,7 +35,7 @@ Follow the steps below to see how you can make two projects interact.
         
 ## Expected result
 From the picture below you can see the results of the steps above, with little modifications.
-![networking](https://github.com/gianfa/docker_by_examples/blob/master/_img/networking_exp_res.png)
+![networking](https://github.com/gianfa/docker_by_examples/blob/master/_img/networking_exp_res.png width=300px)
 
 
 ## Resources
