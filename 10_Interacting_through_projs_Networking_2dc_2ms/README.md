@@ -35,7 +35,7 @@ Follow the steps below to see how you can make two projects interact.
         
 ## Expected result
 From the picture below you can see the results of the steps above, with little modifications.
-![networking](https://github.com/gianfa/docker_by_examples/blob/master/_img/networking_exp_res.png width=300px)
+<img src="https://github.com/gianfa/docker_by_examples/blob/master/_img/networking_exp_res.png">
 
 
 ## Resources
