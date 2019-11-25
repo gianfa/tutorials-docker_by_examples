@@ -5,7 +5,7 @@ We're gonna setup a minimum global project in order to make each service able to
 
 
 ### The projects
-<img href="https://github.com/gianfa/docker_by_examples/blob/master/_img/networking_tree.png" width="200">
+<img src="https://github.com/gianfa/docker_by_examples/blob/master/_img/networking_tree.png" width="500">
 As you can see we have:
 * two projects, each one having:
     * its proper docker compose
