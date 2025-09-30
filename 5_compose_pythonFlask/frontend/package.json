@@ -5,6 +5,6 @@
   "author": "Gian Angelini",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.2"
+    "axios": "^0.30.2"
   }
 }
