@@ -5,7 +5,7 @@
   "author": "Gian Angelini",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^0.30.3",
     "express": "^4.20.0",
     "nodemon": "^1.19.3"
   }
